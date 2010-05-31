@@ -1,0 +1,7 @@
+category: X11
+requires: fontconfig mkfontcache mkfontdir font-encodings
+sdesc: "Android TrueType fonts"
+ldesc: "The Droid family of fonts was designed to provide optimal 
+quality and reading comfort on a mobile handset. The Droid fonts were 
+optimized for use in application menus, web browsers and for other 
+screen text."

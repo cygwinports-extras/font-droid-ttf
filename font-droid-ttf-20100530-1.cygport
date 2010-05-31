@@ -1,0 +1,14 @@
+GIT_URI="git://android.git.kernel.org/platform/frameworks/base.git"
+GIT_SUBDIR="data/fonts"
+inherit font git
+
+DESCRIPTION="Android TrueType fonts"
+HOMEPAGE="http://www.droidfonts.com/"
+
+src_compile() { :; }
+
+src_install() {
+	cd ${S}
+	fontinto TTF
+	dofont Droid*.ttf
+}
